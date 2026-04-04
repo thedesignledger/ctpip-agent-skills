@@ -36,9 +36,9 @@ Time Foundation          — IP owner, TIME Unit Trust
 | PHI | 1.618033988749895 | Golden Ratio, temporal scaling |
 | LAMBDA_LUX | 8.98755178736818e16 | Lux Limit, energy density bound |
 | EPSILON_0 | 1.0 | Stability constant |
-| GAMMA_MIN | 0.70 | SEED threshold (Carnot) |
-| GAMMA_BLOOM | 0.8187 | BLOOM threshold (Landauer) |
-| GAMMA_ROOT | 0.95 | ROOT threshold (relativistic) |
+| GAMMA_MIN | 0.70 | SEED coherence threshold (Carnot) |
+| GAMMA_BLOOM | 0.8187 | BLOOM coherence threshold (Landauer) |
+| GAMMA_ROOT | 0.95 | ROOT coherence threshold (relativistic) |
 | PARITY_BTC | 0.021 | 1 FLUX = 0.021 BTC (immutable) |
 | CVF_RATE | 0.095 | Coherence Value Fee |
 | ALPHA_DEFAULT | 8.0 | Attention computation parameter |
@@ -66,7 +66,7 @@ Where:
 
 ## Classification Tiers
 
-| Tier | Gamma Range | Meaning |
+| Tier | Coherence Range | Meaning |
 |:-----|:-----------|:--------|
 | REJECTED | < 0.70 | Below Carnot limit |
 | SEED | 0.70 – 0.8186 | Valid, minimal coherence |
@@ -80,8 +80,8 @@ All must pass. Sequential. Cheapest first. No bypass.
 1. **Intent** — IntentSig hash present and valid (SHA-256)
 2. **Evidence** — Evidence hash present and valid
 3. **Anchors** — At least one CausalAnchor linked
-4. **Coherence** — Gamma >= GAMMA_MIN (0.70)
-5. **Entropy** — Delta_S > 0 (Gamma < 1.0)
+4. **Coherence** — Coherence Index >= GAMMA_MIN (0.70)
+5. **Entropy** — Delta_S > 0 (Coherence Index < 1.0)
 
 ## FLUX Token
 

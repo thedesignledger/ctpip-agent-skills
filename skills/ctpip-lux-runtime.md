@@ -1,6 +1,6 @@
 ---
 name: ctpip-lux-runtime
-description: "LUX Runtime — coherence measurement layer of CTP/IP. Contains the EVA computation (Gamma, CTU, classification, temporal debt). The math that validates human transformation."
+description: "LUX Runtime — coherence measurement layer of CTP/IP. Contains the EVA computation (coherence, CTU, classification, temporal debt). The math that validates human transformation."
 version: 1.0.0
 author: Design Ledger PTY LTD
 tags: [ctpip, lux, runtime, eva, coherence, gamma, ctu, measurement]
@@ -9,7 +9,7 @@ tags: [ctpip, lux, runtime, eva, coherence, gamma, ctu, measurement]
 # LUX Runtime
 
 The measurement layer of CTP/IP. LUX Runtime contains the EVA computation
-that produces Gamma from three input channels.
+that produces coherence from three input channels.
 
 Source: R11 Book II S.II.6, Book III S.III.A.3.3
 
@@ -32,7 +32,7 @@ Where:
 CTU = PHI × E × V × A
 ```
 
-CTU (Causal Time Unit) is only generated when Gamma >= 0.70 AND Delta_S > 0.
+CTU (Causal Time Unit) is only generated when Coherence Index >= 0.70 AND Delta_S > 0.
 
 PHI = 1.618033988749895 (Golden Ratio)
 
@@ -42,7 +42,7 @@ PHI = 1.618033988749895 (Golden Ratio)
 A = 1 / (1 + alpha × sigma²)
 ```
 
-Where sigma² is the rolling variance of Gamma over the calibration window (10 cycles).
+Where sigma² is the rolling variance of coherence over the calibration window (10 cycles).
 alpha defaults to 8.0.
 
 ## Classification
@@ -61,7 +61,7 @@ Thresholds are physics-derived:
 
 ## Temporal Debt
 
-When Gamma < GAMMA_MIN:
+When Coherence Index < GAMMA_MIN:
 ```
 D = (V × E × A) / (Gamma + epsilon_0)
 ```

@@ -12,7 +12,7 @@ Source: R11 Sealed Unified Corpus (DOI: 10.5281/zenodo.19362640)
 Everything an agent needs to operate within CTP/IP. The law, the constants, the entity architecture, the invariants. Load this first.
 
 ### 2. LUX Runtime (`ctpip-lux-runtime`)
-The measurement layer. Contains the EVA computation that produces Gamma, CTU, classification, and temporal debt. Design Ledger builds and licenses LUX Runtime.
+The measurement layer. Contains the EVA computation that produces coherence scores, CTU, classification, and temporal debt. Design Ledger builds and licenses LUX Runtime.
 
 ### 3. Guardian Gates (`ctpip-guardian-gates`)
 The five pre-validation gates. Intent, Evidence, Anchors, Coherence, Entropy. All must pass. No bypass. Cheapest first.

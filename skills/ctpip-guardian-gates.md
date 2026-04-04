@@ -61,13 +61,13 @@ At least one CausalAnchor with status = "Linked"
 ```
 
 Anchor types: wallet, email, KYC, device, biometric.
-Each anchor carries its own Gamma (anchor coherence).
-The weakest anchor clamps the seal's Gamma.
+Each anchor carries its own coherence score.
+The weakest anchor clamps the seal's coherence.
 
 ## Gate 4: Coherence
 
 ```
-Gamma >= GAMMA_MIN (0.70)
+Coherence Index >= GAMMA_MIN (0.70)
 ```
 
 After anchor coherence clamping. Below Carnot = thermodynamically impossible to validate.
@@ -75,10 +75,10 @@ After anchor coherence clamping. Below Carnot = thermodynamically impossible to 
 ## Gate 5: Entropy
 
 ```
-Delta_S = 1.0 - Gamma > 0
+Delta_S = 1.0 - coherence > 0
 ```
 
-Gamma = 1.0 is thermodynamically impossible. Perfect coherence does not exist. If Gamma = 1.0, the measurement is fraudulent.
+Coherence Index = 1.0 is thermodynamically impossible. Perfect coherence does not exist. If Coherence Index = 1.0, the measurement is fraudulent.
 
 ## Failure Routing
 

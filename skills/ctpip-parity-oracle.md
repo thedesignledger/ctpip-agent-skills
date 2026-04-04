@@ -25,7 +25,7 @@ Immutable. Not market-driven. Not algorithmic. Structural.
 - Mint: Dun6pP3Xsx9CWetKj3zd8iqHz8EYC1amYSeJKG8JzQ9n
 - Decimals: 9
 - Mint Authority: EVA Oracle PDA (program-controlled)
-- Emitted only on validated transformation (VALID seal with Gamma >= 0.70)
+- Emitted only on validated transformation (VALID seal with Coherence Index >= 0.70)
 
 ## Price Computation
 
