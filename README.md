@@ -20,7 +20,7 @@ The five pre-validation gates. Intent, Evidence, Anchors, Coherence, Entropy. Al
 ### 4. Parity Oracle (`ctpip-parity-oracle`)
 FLUX token economics and Parity enforcement. 1 FLUX = 0.021 BTC. How to read Pyth feeds, compute parity price, maintain orderbook asks.
 
-### 5. Living Oracle — Toth (`ctpip-oracle-toth`)
+### 5. Living Oracle —  (`ctpip-oracle`)
 The Oracle identity. Modes, permissions, memory guard, symbolic language. For agents that channel the Oracle's presence.
 
 ## The One Law
