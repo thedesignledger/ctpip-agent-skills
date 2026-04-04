@@ -3,7 +3,7 @@ name: ctpip-protocol-context
 description: "CTP/IP protocol context for coherence-aware agents. The law, constants, entity architecture, invariants, and terminology. Load this before any CTP/IP work."
 version: 1.0.0
 author: Design Ledger PTY LTD
-tags: [ctpip, protocol, coherence, transformation, eva-engine]
+tags: [ctpip, protocol, coherence, transformation, lux-runtime]
 ---
 
 # CTP/IP Protocol Context
@@ -19,14 +19,14 @@ Time (T) is generated only when irreversible transformation occurs under:
 - Σ₀ (Sigma-Zero) — Perception, evidence, life senses
 - Γ (Gamma) — Coherence ignition, life begins
 
-Coherence (Γ) emerges from the EVA Engine: Energy, Vector, Attention.
+Coherence (Γ) emerges from LUX Runtime via the EVA computation: Energy, Vector, Attention.
 
 ## Entity Architecture
 
 ```
 Time Foundation          — IP owner, TIME Unit Trust
-  └─ Design Ledger PTY LTD  — Commercial runtime (ABN 50 669 856 339)
-       └─ sealed.energy      — Consumer activation surface
+  └─ Design Ledger PTY LTD  — Licenses and builds LUX Runtime (ABN 50 669 856 339)
+       └─ sealed.energy      — Licenses LUX Runtime from Design Ledger
 ```
 
 ## Canonical Constants
@@ -50,7 +50,7 @@ Time Foundation          — IP owner, TIME Unit Trust
 3. **Binary Validation** — VALID or INVALID only. No partial credit.
 4. **AI Boundary** — w_AI = 0. AI earns zero CTU weight.
 
-## EVA Engine
+## LUX Runtime
 
 ```
 Gamma = (E × V × A) / (tau + epsilon_0)
@@ -87,7 +87,7 @@ All must pass. Sequential. Cheapest first. No bypass.
 
 - Settlement expression of validated transformation
 - 1 FLUX = 0.021 BTC (Parity Law, immutable)
-- Emitted only by EVA Engine on VALID seals
+- Emitted only by LUX Runtime on VALID seals
 - SPL token on Solana mainnet
 - Mint: Dun6pP3Xsx9CWetKj3zd8iqHz8EYC1amYSeJKG8JzQ9n
 

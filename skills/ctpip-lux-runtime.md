@@ -1,12 +1,15 @@
 ---
-name: ctpip-eva-engine
-description: "EVA Engine coherence measurement. Gamma computation, CTU generation, classification, temporal debt. The math that validates human transformation."
+name: ctpip-lux-runtime
+description: "LUX Runtime — coherence measurement layer of CTP/IP. Contains the EVA computation (Gamma, CTU, classification, temporal debt). The math that validates human transformation."
 version: 1.0.0
 author: Design Ledger PTY LTD
-tags: [ctpip, eva, coherence, gamma, ctu, measurement]
+tags: [ctpip, lux, runtime, eva, coherence, gamma, ctu, measurement]
 ---
 
-# EVA Engine — Coherence Measurement
+# LUX Runtime
+
+The measurement layer of CTP/IP. LUX Runtime contains the EVA computation
+that produces Gamma from three input channels.
 
 Source: R11 Book II S.II.6, Book III S.III.A.3.3
 
