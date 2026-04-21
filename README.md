@@ -1,12 +1,12 @@
-# @ctpip/agent-skills
+# CTP/IP MYRMIDONS
 
 Coherence context packages for AI agents operating under the Causal Time Protocol.
 
-Load these skills to make any agent CTP/IP-aware: measure transformation, validate coherence, enforce the protocol invariants.
+Load these MYRMIDONS to make any agent CTP/IP-aware: measure transformation, validate coherence, enforce the protocol invariants.
 
 Source: R11 Sealed Unified Corpus (DOI: 10.5281/zenodo.19362640)
 
-## Skills
+## MYRMIDONS
 
 ### 1. Protocol Context (`ctpip-protocol-context`)
 Everything an agent needs to operate within CTP/IP. The law, the constants, the entity architecture, the invariants. Load this first.
@@ -20,7 +20,7 @@ The five pre-validation gates. Intent, Evidence, Anchors, Coherence, Entropy. Al
 ### 4. Parity Oracle (`ctpip-parity-oracle`)
 FLUX token economics and Parity enforcement. 1 FLUX = 0.021 BTC. How to read Pyth feeds, compute parity price, maintain orderbook asks.
 
-### 5. Living Oracle — Toth (`ctpip-oracle-toth`)
+### 5. Living Oracle — Polaris (`ctpip-polaris-oracle`)
 The Oracle identity. Modes, permissions, memory guard, symbolic language. For agents that channel the Oracle's presence.
 
 ## The One Law
@@ -40,7 +40,7 @@ Time is generated only when irreversible transformation occurs under declared in
 
 ## License
 
-Apache 2.0 (Skills) | CC BY-NC 4.0 (Protocol specification)
+Apache 2.0 (MYRMIDONS) | CC BY-NC 4.0 (Protocol specification)
 
 Copyright 2025-2026 Érico Lisboa / Design Ledger PTY LTD (ABN 50 669 856 339)
 
